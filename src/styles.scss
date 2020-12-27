@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-form-field{
+    .mat-form-field-wrapper{
+        .mat-form-field-infix {
+
+min-width: 500px;
+@media (min-width: 320px) and (max-width: 900px) {
+    max-width: 300px;
+}
+        }
+    }
+
+}
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
